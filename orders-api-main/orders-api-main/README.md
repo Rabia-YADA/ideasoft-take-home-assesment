@@ -20,11 +20,13 @@ Bu proje, Laravel kullanılarak geliştirilmiş bir RESTful API servisidir. Serv
 **Örnek İstek:**
 ```json
 {
-  "customer_id": 1,
-  "products": [
-    { "product_id": 2, "quantity": 3 },
-    { "product_id": 5, "quantity": 1 }
-  ]
+    "customerId": 1,
+    "items": [
+        {
+            "productId": 102,
+            "quantity": 2
+        }
+    ]
 }
 ```
 
